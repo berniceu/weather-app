@@ -45,7 +45,6 @@ async function getWeatherData(city) {
         case 'Rain' :
             weatherImage.src = "images/rain.png";
             break;
-        default: weatherImage.src= 'images/cloud.png';
     }
     
     
